@@ -2,6 +2,8 @@
  *  msg_asio_producer.cpp
  *
  *  A simple test program using the Boost ASIO handler over a TLS connection
+ *
+ *  Compile this with: g++ -I /opt/boost/Boost-1.62.0/include -L/opt/boost/Boost-1.62.0/lib/ -l:libboost_system.so -lssl -lamqpcpp  -std=c++11 -g -Wall -Wextra -march=x86-64  msg_bus_asio_producer.cpp -o msg_bus_asio_producer
  */
 
 #include <boost/asio/io_service.hpp>
