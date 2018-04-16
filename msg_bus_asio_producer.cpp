@@ -1,5 +1,5 @@
 /**
- *  msg_asio_producer.cpp
+ *  msg_bus_asio_producer.cpp
  *
  *  A simple test program using the Boost ASIO handler over a TLS connection
  *
